@@ -85,13 +85,11 @@ header > h1{
     display: inline-block;
 }
 
-
 .choice:hover {
     cursor: pointer;
     background-color: #25272e;
     transition: all 0.3s ease;
 }
-
 
 #action-message{
     text-align: center;
