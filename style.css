@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24272e;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1{
+    color:#25272e;
+    text-align: center;
+    font-family: Asap, san-serif;
+}
+
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    width: 200px;
+    font-family: Asap, san-serif;
+    color: white;
+    font-size: 40px;
+    
+}
