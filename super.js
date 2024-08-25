@@ -33,9 +33,9 @@ function win(userChoice, computerChoice){
     computerScore_span.innerHTML = computerScore; 
     result_p.innerHTML = ` ${convertToWord(userChoice)}${smallUserWord}  Beats  ${convertToWord(computerChoice)}${smallCompWord}.  You win 🔥`
     userChoice_div.classList.add('success-glow')
-    setTimeout(function() {
+    setTimeout(() =>
         userChoice_div.classList.remove('success-glow')
-    }, 300)
+    , 300)
 }
 
 
@@ -48,9 +48,9 @@ function lose(userChoice, computerChoice){
     computerScore_span.innerHTML = computerScore; 
     result_p.innerHTML = ` ${convertToWord(userChoice)}${smallUserWord}  Loses to ${convertToWord(computerChoice)}${smallCompWord}.  You Lost 💩`
     userChoice_div.classList.add('lose-glow')
-    setTimeout(function() {
+    setTimeout(() =>
         userChoice_div.classList.remove('lose-glow')
-    }, 300)
+    , 300)
     
 }
 
@@ -60,9 +60,9 @@ function draw(userChoice, computerChoice){
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = ` ${convertToWord(userChoice)}${smallUserWord} Equals ${convertToWord(computerChoice)}${smallCompWord}.  Its a draw`
     userChoice_div.classList.add('draw-glow')
-    setTimeout(function() {
+    setTimeout(() =>
         userChoice_div.classList.remove('draw-glow')
-    }, 300)
+    , 300)
     
 }
     
